@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Order Form</title>
+        <link rel="stylesheet" a href="main.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Order Form</h1>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="C:\Users\johnc\Desktop\School\CURRENT CLASSES\Computer Language\Assignment programs\Assignment 1\index.html">Home</a></li>
+                <li><a href="C:\Users\johnc\Desktop\School\CURRENT CLASSES\Computer Language\Assignment programs\Assignment 1\Information.html">Information</a></li>
+                <li><a href="C:\Users\johnc\Desktop\School\CURRENT CLASSES\Computer Language\Assignment programs\Assignment 1\Products_and_Services.html">Products and Services</a></li>
+                <li><a href="C:\Users\johnc\Desktop\School\CURRENT CLASSES\Computer Language\Assignment programs\Assignment 1\Order_Form.html">Order Form</a></li>
+                <li><a href="C:\Users\johnc\Desktop\School\CURRENT CLASSES\Computer Language\Assignment programs\Assignment 1\Processing.html">Order Processing</a></li>
+                <li><a href="C:\Users\johnc\Desktop\School\CURRENT CLASSES\Computer Language\Assignment programs\Assignment 1\View_Orders.html">View Orders</a></li>
+        </div>
+
+        <form action="process.php" method="get">
+            <div class="form">
+                <label for="Cname">Customer Name</label>
+                <input type="text" id="Cname" name="Cname" /><br />
+
+                <label for="location">Shipping Location</label>
+                <input type="text" id="location" name="location" /><br />
+
+                <label for="poNumber">PO Number</label>
+                <input type="text" id="poNumber" name="poNumber" /><br />
+
+                <label for="deliverdate">Delivery Date</label>
+                <input type="date" id="deliverydate" name="delivery" /><br />
+
+                <label for="delivertimes">Delivery Times<br /> (separated by comma)</label>
+                <input type="text" id="deliverytime" name="time" /><br />
+
+                <label for="product">Product</label>
+                <select id="product" name="product">
+                    <option value="empty"></option>
+                    <option value="type 1/2 (reg)">Type 1/2 (reg)</option>
+                    <option value="type 3">Type 3</option>
+                    <option value="type 1L">Type 1L</option>
+                    <option value="masonry">Type S Masonry</option>
+                </select><br />
+
+                <label for="phone_number">Phone Number</label>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" /><br />
+
+                <label for="newcustomer">Is this a new location?</label>
+                <input type="radio" id="yes" name="newaddress" value="Yes"
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="newaddress" value="No"
+                <label for="no">No</label><br />
+
+                <label for="directions">New address information:</label><br />
+
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" /><br />
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" /><br />
+
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" /><br />
+
+
+
+                <input type="submit" value="Submit Order">
+
+            </div>
+        </form>
+
+        
+        <div class="footer">
+
+            <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>        
+       
+    
+        </div>
+</html>

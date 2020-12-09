@@ -1,0 +1,31 @@
+<!DOCTYPE php>
+
+<html>
+<head>
+	<Title>Confirmation</Title>
+    <link rel="stylesheet" a href="main.css">
+</head>
+	<body>
+
+		<?php
+			$customer = $_GET["Cname"];
+			$location = $_GET["location"];
+			$ponumber = $_GET["poNumber"];
+			$deldate = $_GET["delivery"];
+			$deltime = $_GET["time"];
+
+
+			echo "Customer Name: ".$customer."<br>";
+			echo "Location: ".$location."<br>";
+			echo "PO Number: ".$ponumber."<br>";
+			echo "Delivery Date: ".$deldate."<br>";
+			echo "Delivery Time: ".$deltime."<br>";
+
+		?>
+		 <a href = "http://bis3330.tubera.com/2020/johnc/assignment1/Order_Form.html">
+		<button type="submit" value = "Confirm Order">Confirm Order?</button>
+		</a>
+		
+
+	</body>
+</html> 

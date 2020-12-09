@@ -1,0 +1,39 @@
+TAGS
+
+<html></html>
+<head></head> - Metadata
+	<title></title>
+	<style> - style information
+	<base> - default URL
+	<link> - link to external stylesheet (<link rel="stylesheet" type="text/css" href="styles.css")
+	<meta> - metadata (charset, name, content)
+	<script> - embed client side script(javascript)
+	<noscript> - message if scripts are not supported
+<body></body>
+	<header></header> - not required
+	<footer></footer> - not required (copyright = "&copy; year, etc")
+	<h1 - h6></h1 - h6> - headings 
+	<p></p> - paragraphs
+	<div></div> - divide tag stand alone content
+	<ol></ol> - ordered list "numbered list"
+	<ul></ul> - unordered list "bullet points"
+	<li></li> - list item
+	<dl></dl> - definition list
+	<dt></dt> - definition title "word defined"
+	<dd></dd> - definition
+	<address></address> - addresses - contact info
+	<article></article> - articles, content that can be re-used elsewhere
+	<button type="button"> words on button (or img src="source file"</button>
+
+	<table></table> - create a table
+		<caption></caption> - table title
+		<tr></tr> - table row
+			<td></td> - data in row, "<td> info</td><td> info 2</td>" - creats new column in the row
+	<cite></cite> - citation
+	<figure></figure> - add an image
+	<figcaption></figcaption> - add caption to image
+	<mark></mark> - highlight text
+	<meter></meter> - value = how much filled, min - min number, max - max number
+	<nav></nav> - group of links
+	<time></time> - time tag
+	<a></a> - anchor tag, links

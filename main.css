@@ -1,0 +1,216 @@
+/*Basic layout*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Calibri;
+    margin: 0px;
+    padding: 0px;
+    background-color: ghostwhite;
+}
+
+.header{
+    width:100%;
+    height:150px;
+    background-color: mediumblue;
+    color: white;
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 150px;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.nav ul{
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.nav ul li a:link{
+    color: black;
+    background-color: none;
+    font-size: 25px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.nav ul li a:visited{
+    color: black;
+}
+
+.nav ul li a:hover{
+    color: mediumblue;
+}
+
+.nav ul li a:active{
+    color: black;
+}
+
+/*product and services layout*/
+.ProductsandServices {
+    text-align: left;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.ProductsandServices ul{
+    font-size: 20px;
+    padding: 20px;
+    list-style-type:none;
+}
+
+.ProductsandServices li{
+    padding: 0 0 20px;
+}
+
+.ProductsandServices ul li a:link{
+    color: black;
+}
+
+.ProductsandServices ul li a:hover {
+    color: mediumblue;
+}
+
+
+.content1{
+    margin:auto;
+    text-align:center;
+    font-size:30px;
+    width: 500px;
+    padding: 50px;
+
+}
+/*
+.content2{
+    background-color:cornflowerblue;
+    color: black;
+    width: 75%;
+    height: 535px;
+    float: left;
+}
+.content1 p{
+    padding: 30px;
+}
+.content2 p{
+    padding: 30px;
+}
+    */
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    background: black;
+    color: white;
+}
+.footer ul{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+.footer ul li{
+    display: inline;
+}
+.footer ul a{
+    color: white;
+    padding: 0px 40px;
+    text-decoration: none;
+}
+/*information html design*/
+.title{
+    margin:auto;
+    text-align:center;
+    padding: 20px;
+    width: 750px;
+}
+
+.title p{
+    font-size: 30px;
+    width: 50%;
+    margin:auto;
+    padding: 100px;
+    text-align:center;
+}
+
+/*order form*/
+.form {
+    text-align: left;
+    font-size: 40px;
+    padding: 40px;
+    line-height: 50px;
+}
+
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=date] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type=text]:focus {
+    border: 4px solid blue;
+}
+
+input[type=submit]{
+    background-color: mediumblue;
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    float:inherit;
+}
+
+select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;   
+}
+.content{
+    display: inline-block;
+    margin:auto;
+    width:auto;
+    padding:50px 750px 0px 0px;
+    font-size:30px;
+}
+.order_view_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order_view_table th {
+    border:1px solid black;
+    font-size:20px;
+}
+
+.order_view_table td{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
